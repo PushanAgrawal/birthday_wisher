@@ -34,7 +34,7 @@ def sendemail(n):
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp_server:
         smtp_server.login(my_email, password)
         smtp_server.sendmail(my_email, email_list[n], new_letter)
-        print("Message not sent!")        
+        print("Message  sent!")        
 
 
 
